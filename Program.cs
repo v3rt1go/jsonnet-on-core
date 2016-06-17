@@ -25,6 +25,13 @@ namespace JsonNetCore
             SerializationRepository.DynamicObjectsDemo();
             // Deserialize to special types
             SerializationRepository.DeserializeToSpecialTypes();
+            JsonSerializerDemo.ShowJsonSerializer();
+            JsonSerializerDemo.JsonTextReaderDemo();
+            JsonSerializerDemo.JsonTextWriterDemo();
+            DateFormattingDemo.ShowDatesDemo();
+            HandlingJsonErrorsDemo.ShowTryCatchErrors();
+            HandlingJsonErrorsDemo.ShowInlineDelegateDemo();
+            HandlingJsonErrorsDemo.ShowExternalDelegateDemo();
         }
     }
 }
